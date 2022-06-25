@@ -1,0 +1,41 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[TRUNKSXENO,10]
+FormName = SSj
+BaseStats = 68,40,71,58,55,65,65
+#-------------------------------
+[GOKUKID,1]
+FormName = Battle Armour
+#-------------------------------
+[GOKUKID,2]
+FormName = Oozaru
+BaseStats = 78,10,81,61,27,55,54
+BaseExp = 178
+Height = 15.7
+Weight = 3500.0
+Pokedex = When Goku looks at a full moon he somehow transforms into a giant ape. Maybe that has something to do with his tail.
+Flags = Saiyan,GokuFamily,Giant
+#-------------------------------
+[GOKU,1]
+FormName = Battle Armour
+#-------------------------------
+[GOHANKID,1]
+FormName = Turtle Gi
+#-------------------------------
+[GOHANKID,2]
+FormName = Oozaru
+BaseStats = 76,10,83,60,24,51,54
+BaseExp = 174
+Height = 15.7
+Weight = 3500.0
+Pokedex = Due to his saiyan heritage, looking at a full moon makes Gohan transform into a giant ape.
+Flags = Saiyan,GokuFamily,Giant
+#-------------------------------
+[GOHANTEEN,1]
+FormName = Turtle Gi
+#-------------------------------
+[GRANDPAGOHAN,1]
+FormName = Masked
+#-------------------------------
+[BULMA,1]
+FormName = Bunny

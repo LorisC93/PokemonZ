@@ -1,0 +1,6 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[CAMPER,Liam]
+LoseText = A very good battle, indeed!
+Pokemon = GOKUKID,10
+Pokemon = PANKID,11
