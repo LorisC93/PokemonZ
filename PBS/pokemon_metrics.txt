@@ -1,7 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[GOKUKID]
-BackSprite = 0,0
-FrontSprite = 0,0
-ShadowX = 0
-ShadowSize = 0
+[TRUNKSXENO]
+FrontSprite = 0,3
+ShadowX = -9
+ShadowSize = 2
