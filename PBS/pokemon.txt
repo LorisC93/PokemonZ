@@ -105,7 +105,7 @@ Category = Saiyan
 Pokedex = Under the guidance of Roshi, Goku has now become one of the most powerful fighters on Earth.
 Generation = 1
 Flags = Saiyan,GokuFamily,TurtleSchool
-Transformations = 30,SSJ
+Transformations = 30,SSJ,56,SSJ3
 #-------------------------------
 [GOHANKID]
 Name = Kid Gohan

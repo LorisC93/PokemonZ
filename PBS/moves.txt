@@ -224,33 +224,27 @@ Description = A perfected Solar Flare that drastically cuts the target's accurac
 Name = SSj
 Type = LIGHT
 Category = Special
-Power = 3
-Accuracy = 10
-TotalPP = 10
-Target = NearOther
-FunctionCode = None
+Cost = 3
+Rank = 10
+FormNumber = 10
 Description = SSj
 #-------------------------------
 [SSJ2]
 Name = SSj2
 Type = LIGHT
 Category = Special
-Power = 7
-Accuracy = 20
-TotalPP = 20
-Target = NearOther
-FunctionCode = None
+Cost = 7
+Rank = 20
+FormNumber = 20
 Description = SSj2
 #-------------------------------
 [SSJ3]
 Name = SSj3
 Type = LIGHT
 Category = Special
-Power = 15
-Accuracy = 30
-TotalPP = 30
-Target = NearOther
-FunctionCode = None
+Cost = 15
+Rank = 30
+FormNumber = 30
 Description = SSj3
 #-------------------------------
 [ATTACKORDER]

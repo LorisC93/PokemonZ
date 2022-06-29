@@ -1,8 +1,11 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[TRUNKSXENO,10]
+[TRUNKSXENO,110]
 FormName = SSj
 BaseStats = 68,40,71,58,55,65,65
+#-------------------------------
+[TRUNKSXENO,130]
+FormName = SSj3
 #-------------------------------
 [GOKUKID,1]
 FormName = Battle Armour
@@ -16,8 +19,41 @@ Weight = 3500.0
 Pokedex = When Goku looks at a full moon he somehow transforms into a giant ape. Maybe that has something to do with his tail.
 Flags = Saiyan,GokuFamily,Giant
 #-------------------------------
+[GOKU,10]
+FormName = SSj
+#-------------------------------
+[GOKU,20]
+FormName = SSj2
+#-------------------------------
+[GOKU,30]
+FormName = SSj3
+BaseStats = 100,43,85,71,62,88,74
+#-------------------------------
 [GOKU,1]
 FormName = Battle Armour
+#-------------------------------
+[GOKU,110]
+FormName = Battle Armour SSj
+#-------------------------------
+[GOKU,120]
+FormName = Battle Armour SSj2
+#-------------------------------
+[GOKU,130]
+FormName = Battle Armour SSj3
+BaseStats = 100,43,85,71,62,88,74
+#-------------------------------
+[GOKU,2]
+FormName = Yardrat
+#-------------------------------
+[GOKU,210]
+FormName = Yardrat SSj
+#-------------------------------
+[GOKU,220]
+FormName = Yardrat SSj2
+#-------------------------------
+[GOKU,230]
+FormName = Yardrat SSj3
+BaseStats = 100,43,85,71,62,88,74
 #-------------------------------
 [GOHANKID,1]
 FormName = Turtle Gi
