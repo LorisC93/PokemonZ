@@ -224,16 +224,43 @@ Description = A perfected Solar Flare that drastically cuts the target's accurac
 Name = SSj
 Type = LIGHT
 Category = Special
-Cost = 3
+Cost = 10
 Rank = 10
 FormNumber = 10
 Description = SSj
+#-------------------------------
+[SSJGRADE2]
+Name = SSj Grade 2
+Type = LIGHT
+Category = Special
+Cost = 16
+Rank = 11
+FormNumber = 11
+Description = A SSj that broke the limits of a SSj
+#-------------------------------
+[SSJGRADE3]
+Name = SSj Grade 3
+Type = LIGHT
+Category = Special
+Cost = 20
+Rank = 12
+FormNumber = 12
+Description = A SSj pushed to its limits
+#-------------------------------
+[SSJGRADE4]
+Name = Mastered SSj
+Type = LIGHT
+Category = Special
+Cost = 5
+Rank = 13
+FormNumber = 13
+Description = The SSj perfection, with no energy flaws
 #-------------------------------
 [SSJ2]
 Name = SSj2
 Type = LIGHT
 Category = Special
-Cost = 7
+Cost = 22
 Rank = 20
 FormNumber = 20
 Description = SSj2
@@ -242,7 +269,7 @@ Description = SSj2
 Name = SSj3
 Type = LIGHT
 Category = Special
-Cost = 15
+Cost = 35
 Rank = 30
 FormNumber = 30
 Description = SSj3

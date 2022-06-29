@@ -1,10 +1,11 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[TRUNKSXENO,110]
+[TRUNKSXENO,10]
 FormName = SSj
+Types = FIGHTING,LIGHT
 BaseStats = 68,40,71,58,55,65,65
 #-------------------------------
-[TRUNKSXENO,130]
+[TRUNKSXENO,30]
 FormName = SSj3
 #-------------------------------
 [GOKUKID,1]
@@ -21,25 +22,32 @@ Flags = Saiyan,GokuFamily,Giant
 #-------------------------------
 [GOKU,10]
 FormName = SSj
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,20]
 FormName = SSj2
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,30]
 FormName = SSj3
+Types = FIGHTING,LIGHT
 BaseStats = 100,43,85,71,62,88,74
 #-------------------------------
 [GOKU,1]
 FormName = Battle Armour
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,110]
 FormName = Battle Armour SSj
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,120]
 FormName = Battle Armour SSj2
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,130]
 FormName = Battle Armour SSj3
+Types = FIGHTING,LIGHT
 BaseStats = 100,43,85,71,62,88,74
 #-------------------------------
 [GOKU,2]
@@ -47,12 +55,15 @@ FormName = Yardrat
 #-------------------------------
 [GOKU,210]
 FormName = Yardrat SSj
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,220]
 FormName = Yardrat SSj2
+Types = FIGHTING,LIGHT
 #-------------------------------
 [GOKU,230]
 FormName = Yardrat SSj3
+Types = FIGHTING,LIGHT
 BaseStats = 100,43,85,71,62,88,74
 #-------------------------------
 [GOHANKID,1]
