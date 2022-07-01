@@ -17,7 +17,7 @@ Weight = 60.0
 Pokedex = An incarnation of Future Trunks from a world separate to the main timeline, who is a member of the Time Patrol.
 Generation = 3
 Flags = Saiyan,VegetaFamily,Xeno
-Transformations = 28,SSJ,34,SSJGRADE3,58,SSJ3
+Transformations = 28,SSJ,58,SSJ3
 #-------------------------------
 [PANKID]
 Name = Kid Pan
