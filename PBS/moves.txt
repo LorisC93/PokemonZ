@@ -11,7 +11,7 @@ Target = NearOther
 FunctionCode = None
 Description = A simple punch delivered with tremendous force.
 #-------------------------------
-[Kick]
+[KICK]
 Name = Kick
 Type = FIGHTING
 Category = Physical
