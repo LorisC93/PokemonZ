@@ -11,7 +11,7 @@ FormName = SSj3
 [GOKUKID,1]
 FormName = Battle Armour
 #-------------------------------
-[GOKUKID,2]
+[GOKUKID,9]
 FormName = Oozaru
 BaseStats = 78,10,81,61,27,55,54
 BaseExp = 178

@@ -4,7 +4,13 @@
 FrontSprite = 0,3
 ShadowX = -9
 ShadowSize = 2
+#-------------------------------
 [PANKID]
 FrontSprite = 0,5
 ShadowX = 3
 ShadowSize = 1
+#-------------------------------
+[GOKUKID,9]
+FrontSprite = 0,30
+ShadowX = 0
+ShadowSize = 5
