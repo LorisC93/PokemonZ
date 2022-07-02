@@ -116,8 +116,8 @@ Height = 1.75
 Weight = 62.0
 Pokedex = Under the guidance of Roshi, Goku has now become one of the most powerful fighters on Earth.
 Generation = 1
-Flags = Saiyan,GokuFamily,TurtleSchool
-Transformations = 30,SSJ,56,SSJ3
+Flags = Saiyan,GokuFamily,TurtleSchool,NoSSJGRADE2
+Transformations = 26,SSJ,33,SSJGRADE2,45,SSJ2,61,SSJ3
 #-------------------------------
 [GOHANKID]
 Name = Kid Gohan

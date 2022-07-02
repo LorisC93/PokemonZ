@@ -21,50 +21,56 @@ Pokedex = When Goku looks at a full moon he somehow transforms into a giant ape.
 Flags = Saiyan,GokuFamily,Giant
 #-------------------------------
 [GOKU,10]
+FormName = Turtle School SSj
 FormName = SSj
 Types = FIGHTING,LIGHT
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJGRADE2
 #-------------------------------
 [GOKU,20]
-FormName = SSj2
+FormName = Turtle School SSj2
 Types = FIGHTING,LIGHT
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJGRADE2
 #-------------------------------
 [GOKU,30]
-FormName = SSj3
+FormName = Turtle School SSj3
 Types = FIGHTING,LIGHT
 BaseStats = 100,43,85,71,62,88,74
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJGRADE2
 #-------------------------------
 [GOKU,1]
 FormName = Battle Armour
 Types = FIGHTING,LIGHT
+Flags = Saiyan,GokuFamily,TurtleSchool,NoSSJ2,NoSSJ3
 #-------------------------------
 [GOKU,110]
 FormName = Battle Armour SSj
 Types = FIGHTING,LIGHT
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJ2,NoSSJ3
 #-------------------------------
-[GOKU,120]
-FormName = Battle Armour SSj2
+[GOKU,111]
+FormName = Battle Armour SSj Grade 2
 Types = FIGHTING,LIGHT
-#-------------------------------
-[GOKU,130]
-FormName = Battle Armour SSj3
-Types = FIGHTING,LIGHT
-BaseStats = 100,43,85,71,62,88,74
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJ2,NoSSJ3
 #-------------------------------
 [GOKU,2]
 FormName = Yardrat
+Flags = Saiyan,GokuFamily,TurtleSchool,NoSSJGRADE2
 #-------------------------------
 [GOKU,210]
 FormName = Yardrat SSj
 Types = FIGHTING,LIGHT
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJGRADE2
 #-------------------------------
 [GOKU,220]
 FormName = Yardrat SSj2
 Types = FIGHTING,LIGHT
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJGRADE2
 #-------------------------------
 [GOKU,230]
 FormName = Yardrat SSj3
 Types = FIGHTING,LIGHT
 BaseStats = 100,43,85,71,62,88,74
+Flags = Saiyan,GokuFamily,TurtleSchool,SSj,NoSSJGRADE2
 #-------------------------------
 [GOHANKID,1]
 FormName = Turtle Gi
