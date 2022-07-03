@@ -220,21 +220,57 @@ Target = AllNearFoes
 FunctionCode = LowerTargetAccuracy3
 Description = A perfected Solar Flare that drastically cuts the target's accuracy.
 #-------------------------------
+[FULLPOWER]
+Name = Full Power
+Type = FIGHTING
+Category = Special
+Cost = 5
+Rank = 1
+FormNumber = 1
+Description = The body becomes bulkier to be able to sustain more power
+#-------------------------------
+[WRATHFUL]
+Name = Wrathful
+Type = FIGHTING
+Category = Special
+Cost = 8
+Rank = 1
+FormNumber = 2
+Description = Let the rage take over!
+#-------------------------------
+[GIANT]
+Name = Giant
+Type = FIGHTING
+Category = Special
+Cost = 8
+Rank = 1
+FormNumber = 3
+Description = Body gigantification
+#-------------------------------
+[PSEUDOSSJ]
+Name = Pseudo SSj
+Type = LIGHT
+Category = Special
+Cost = 8
+Rank = 1
+FormNumber = 9
+Description = Use SSj energy without becoming one
+#-------------------------------
 [SSJ]
 Name = SSj
 Type = LIGHT
 Category = Special
 Cost = 10
-Rank = 10
+Rank = 2
 FormNumber = 10
-Description = SSj
+Description = Legends have been told on this transformation
 #-------------------------------
 [SSJGRADE2]
 Name = SSj Grade 2
 Type = LIGHT
 Category = Special
-Cost = 16
-Rank = 11
+Cost = 15
+Rank = 2
 FormNumber = 11
 Description = A SSj that broke the limits of a SSj
 #-------------------------------
@@ -242,37 +278,334 @@ Description = A SSj that broke the limits of a SSj
 Name = SSj Grade 3
 Type = LIGHT
 Category = Special
-Cost = 20
-Rank = 12
+Cost = 18
+Rank = 2
 FormNumber = 12
 Description = A SSj pushed to its limits
 #-------------------------------
-[SSJGRADE4]
-Name = Mastered SSj
+[SSJFULLPOWER]
+Name = SSj Full Power
 Type = LIGHT
 Category = Special
-Cost = 5
-Rank = 13
+Cost = 2
+Rank = 3
 FormNumber = 13
 Description = The SSj perfection, with no energy flaws
+#-------------------------------
+[LEGENDARYSSJ]
+Name = LSSj
+Type = LIGHT
+Category = Special
+Cost = 18
+Rank = 3
+FormNumber = 17
+Description = The SSj of legends
 #-------------------------------
 [SSJ2]
 Name = SSj2
 Type = LIGHT
 Category = Special
-Cost = 22
-Rank = 20
+Cost = 16
+Rank = 4
 FormNumber = 20
-Description = SSj2
+Description = The next stage of SSj
+#-------------------------------
+[SSJRAGE]
+Name = SSj Rage
+Type = LIGHT
+Category = Special
+Cost = 20
+Rank = 9
+FormNumber = 25
+Description = Never enrage a SSj!
+#-------------------------------
+[POTENTIALUNLEASHED]
+Name = Potential Unleashed
+Type = FIGHTING
+Category = Special
+Cost = 16
+Rank = 6
+FormNumber = 26
+Description = Latent power awakened
+#-------------------------------
+[ORANGE]
+Name = Orange
+Type = GRASS
+Category = Special
+Cost = 20
+Rank = 9
+FormNumber = 27
+Description = Shenron little bonus
+#-------------------------------
+[BEAST]
+Name = Beast
+Type = FIGHTING
+Category = Special
+Cost = 20
+Rank = 9
+FormNumber = 28
+Description = When the beast finally awakens
 #-------------------------------
 [SSJ3]
 Name = SSj3
 Type = LIGHT
 Category = Special
-Cost = 35
-Rank = 30
+Cost = 25
+Rank = 5
 FormNumber = 30
-Description = SSj3
+Description = The last stage of regular SSj evolution
+#-------------------------------
+[SSJ3FULLPOWER]
+Name = SSj3 Full Power
+Type = LIGHT
+Category = Special
+Cost = 20
+Rank = 6
+FormNumber = 33
+Description = A perfected SSj3
+#-------------------------------
+[BEYONDGOD]
+Name = Beyond God
+Type = DIVINE
+Category = Special
+Cost = 1
+Rank = 7
+FormNumber = 40
+Description = Tap into God Ki usage
+#-------------------------------
+[SSJGOD]
+Name = SSj God
+Type = DIVINE
+Category = Special
+Cost = 12
+Rank = 8
+FormNumber = 41
+Description = A Saiyan that uses godly Ki
+#-------------------------------
+[SSJBLUE]
+Name = SSjB
+Type = DIVINE
+Category = Special
+Cost = 22
+Rank = 9
+FormNumber = 50
+Description = The SSj version of a SSj God
+#-------------------------------
+[SSJBLUEEVOLVED]
+Name = SSjBE
+Type = DIVINE
+Category = Special
+Cost = 24
+Rank = 1
+FormNumber = 51
+Description = The SSj version of a SSj God
+#-------------------------------
+[SSJBLUEPERFECTED]
+Name = SSjBE
+Type = DIVINE
+Category = Special
+Cost = 28
+Rank = 10
+FormNumber = 53
+Description = SSj Blue with no Ki leaks
+#-------------------------------
+[SSJROSE]
+Name = SSj Rosé
+Type = DIVINE
+Category = Special
+Cost = 22
+Rank = 9
+FormNumber = 55
+Description = The SSj Blue version of a pure godly being
+#-------------------------------
+[SSJROSE2]
+Name = SSj Rosé 2
+Type = DIVINE
+Category = Special
+Cost = 28
+Rank = 10
+FormNumber = 56
+Description = The SSj2 version of a SSj Rosé
+#-------------------------------
+[SSJROSE3]
+Name = SSj Rosé 3
+Type = DIVINE
+Category = Special
+Cost = 37
+Rank = 11
+FormNumber = 57
+Description = The SSj3 version of a SSj Rosé
+#-------------------------------
+[SSJROSEFULLPOWER]
+Name = SSj Rosé Full Power
+Type = DIVINE
+Category = Special
+Cost = 30
+Rank = 12
+FormNumber = 58
+Description = The culmination of SSj Rosé
+#-------------------------------
+[UISIGN]
+Name = UI Sign
+Type = DIVINE
+Category = Special
+Cost = 23
+Rank = 11
+FormNumber = 60
+Description = First glimpse of Ultra Instinct
+#-------------------------------
+[MUI]
+Name = MUI
+Type = DIVINE
+Category = Special
+Cost = 28
+Rank = 12
+FormNumber = 61
+Description = Mastered Ultra Instinct
+#-------------------------------
+[UE]
+Name = Ultra Ego
+Type = DIVINE
+Category = Special
+Cost = 28
+Rank = 12
+FormNumber = 62
+Description = Enjoy destruction!
+#-------------------------------
+[SSJ4]
+Name = SSj4
+Type = LIGHT
+Category = Special
+Cost = 22
+Rank = 9
+FormNumber = 70
+Description = This happens after taming a Golden Oozaru!
+#-------------------------------
+[SSJ4LIMITBREAKER]
+Name = SSj4
+Type = LIGHT
+Category = Special
+Cost = 28
+Rank = 11
+FormNumber = 71
+Description = A SSj4 that broke its limits
+#-------------------------------
+[SSJ4FULLPOWER]
+Name = SSj4
+Type = LIGHT
+Category = Special
+Cost = 24
+Rank = 10
+FormNumber = 73
+Description = A SSj4 with more power than normal
+#-------------------------------
+[DARKDEMON]
+Name = Darkness
+Type = DARK
+Category = Special
+Cost = 8
+Rank = 5
+FormNumber = 80
+Description = A Demon when it absorbs enough dark energy
+#-------------------------------
+[DEMONGOD]
+Name = Demon God
+Type = DIVINE
+Category = Special
+Cost = 16
+Rank = 8
+FormNumber = 81
+Description = Demonic version of godly ki usage
+#-------------------------------
+[DEMONGOD2]
+Name = Demon God 2
+Type = DIVINE
+Category = Special
+Cost = 20
+Rank = 9
+FormNumber = 82
+Description = Enhanced version of Demon God
+#-------------------------------
+[DARKFACTOR]
+Name = Dark Factor
+Type = DIVINE
+Category = Special
+Cost = 22
+Rank = 10
+FormNumber = 83
+Description = Only the Demon King can grant this form
+#-------------------------------
+[TRUEDEMONGOD]
+Name = True Demon God
+Type = DIVINE
+Category = Special
+Cost = 26
+Rank = 11
+FormNumber = 84
+Description = A Demon God that uses all of its divine power to turn giant
+#-------------------------------
+[TRANSCENDEDDEMONGOD]
+Name = Transcended Demon God
+Type = DIVINE
+Category = Special
+Cost = 28
+Rank = 12
+FormNumber = 28
+Description = The most powerful form a Demon God can achieve
+#-------------------------------
+[GOLDEN]
+Name = Halo
+Type = WATER
+Category = Special
+Cost = 25
+Rank = 9
+FormNumber = 90
+Description = When Ice Demons train for the first time in their life!
+#-------------------------------
+[TRUEGOLDEN]
+Name = Halo
+Type = WATER
+Category = Special
+Cost = 20
+Rank = 10
+FormNumber = 91
+Description = Perfected Golden form that consumes less stamina
+#-------------------------------
+[MONSTER]
+Name = Monster
+Type = FIGHTING
+Category = Special
+Cost = 5
+Rank = 1
+FormNumber = 100
+Description = Transform into an ugly monster
+#-------------------------------
+[HALO]
+Name = Halo
+Type = DIVINE
+Category = Special
+Cost = 28
+Rank = 12
+FormNumber = 101
+Description = Manifest an halo to make full use of divine powers
+#-------------------------------
+[DESTROYER]
+Name = Destroyer
+Type = DIVINE
+Category = Special
+Cost = 25
+Rank = 11
+FormNumber = 102
+Description = Power of Destruction everywhere!
+#-------------------------------
+[EVILSAIYAN]
+Name = Evil Saiyan
+Type = FIGHTING
+Category = Special
+Cost = 8
+Rank = 1
+FormNumber = 103
+Description = The power of ancient evil Saiyans
 #-------------------------------
 [ATTACKORDER]
 Name = Attack Order
