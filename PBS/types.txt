@@ -4,7 +4,7 @@
 Name = Normal
 IconPosition = 0
 Weaknesses = FIGHTING
-Immunities = GHOST
+Immunities = DIVINE
 #-------------------------------
 [FIGHTING]
 Name = Fighting
@@ -44,10 +44,10 @@ IconPosition = 6
 Weaknesses = WIND,ROCK,FIRE
 Resistances = FIGHTING,GROUND,GRASS
 #-------------------------------
-[GHOST]
-Name = Ghost
+[DIVINE]
+Name = Divine
 IconPosition = 7
-Weaknesses = GHOST,DARK
+Weaknesses = DIVINE,DARK
 Resistances = POISON,BUG
 Immunities = NORMAL,FIGHTING
 #-------------------------------
@@ -95,7 +95,7 @@ Resistances = WIND,STEEL,ELECTRIC
 Name = Psychic
 IconPosition = 14
 IsSpecialType = true
-Weaknesses = BUG,GHOST,DARK
+Weaknesses = BUG,DIVINE,DARK
 Resistances = FIGHTING,PSYCHIC
 #-------------------------------
 [ICE]
@@ -117,7 +117,7 @@ Name = Dark
 IconPosition = 17
 IsSpecialType = true
 Weaknesses = FIGHTING,BUG,LIGHT
-Resistances = GHOST,DARK
+Resistances = DIVINE,DARK
 Immunities = PSYCHIC
 #-------------------------------
 [LIGHT]

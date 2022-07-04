@@ -226,7 +226,6 @@ Type = FIGHTING
 Category = Special
 Cost = 5
 Rank = 1
-FormNumber = 1
 Description = The body becomes bulkier to be able to sustain more power
 #-------------------------------
 [WRATHFUL]
@@ -235,7 +234,6 @@ Type = FIGHTING
 Category = Special
 Cost = 8
 Rank = 1
-FormNumber = 2
 Description = Let the rage take over!
 #-------------------------------
 [GIANT]
@@ -244,17 +242,25 @@ Type = FIGHTING
 Category = Special
 Cost = 8
 Rank = 1
-FormNumber = 3
 Description = Body gigantification
 #-------------------------------
-[PSEUDOSSJ]
-Name = Pseudo SSj
-Type = LIGHT
-Category = Special
-Cost = 8
+[OOZARU]
+Name = Oozaru
+Type = FIGHTING
+Category = Status
+Cost = 0
 Rank = 1
-FormNumber = 9
-Description = Use SSj energy without becoming one
+Description = A tailed Saiyan when it looks at a fool moon
+Flags = Involuntary
+#-------------------------------
+[GOLDENOOZARU]
+Name = Golden Oozaru
+Type = FIGHTING
+Category = Status
+Cost = 0
+Rank = 2
+Description = SSj version of Oozaru
+Flags = Involuntary
 #-------------------------------
 [SSJ]
 Name = SSj
@@ -262,7 +268,6 @@ Type = LIGHT
 Category = Special
 Cost = 10
 Rank = 2
-FormNumber = 10
 Description = Legends have been told on this transformation
 #-------------------------------
 [SSJGRADE2]
@@ -271,7 +276,6 @@ Type = LIGHT
 Category = Special
 Cost = 15
 Rank = 2
-FormNumber = 11
 Description = A SSj that broke the limits of a SSj
 #-------------------------------
 [SSJGRADE3]
@@ -280,7 +284,6 @@ Type = LIGHT
 Category = Special
 Cost = 18
 Rank = 2
-FormNumber = 12
 Description = A SSj pushed to its limits
 #-------------------------------
 [SSJFULLPOWER]
@@ -289,7 +292,6 @@ Type = LIGHT
 Category = Special
 Cost = 2
 Rank = 3
-FormNumber = 13
 Description = The SSj perfection, with no energy flaws
 #-------------------------------
 [LEGENDARYSSJ]
@@ -298,8 +300,15 @@ Type = LIGHT
 Category = Special
 Cost = 18
 Rank = 3
-FormNumber = 17
 Description = The SSj of legends
+#-------------------------------
+[PSEUDOSSJ]
+Name = Pseudo SSj
+Type = LIGHT
+Category = Special
+Cost = 8
+Rank = 1
+Description = Use SSj energy without becoming one
 #-------------------------------
 [SSJ2]
 Name = SSj2
@@ -307,7 +316,6 @@ Type = LIGHT
 Category = Special
 Cost = 16
 Rank = 4
-FormNumber = 20
 Description = The next stage of SSj
 #-------------------------------
 [SSJRAGE]
@@ -316,7 +324,6 @@ Type = LIGHT
 Category = Special
 Cost = 20
 Rank = 9
-FormNumber = 25
 Description = Never enrage a SSj!
 #-------------------------------
 [POTENTIALUNLEASHED]
@@ -325,7 +332,6 @@ Type = FIGHTING
 Category = Special
 Cost = 16
 Rank = 6
-FormNumber = 26
 Description = Latent power awakened
 #-------------------------------
 [ORANGE]
@@ -334,7 +340,6 @@ Type = GRASS
 Category = Special
 Cost = 20
 Rank = 9
-FormNumber = 27
 Description = Shenron little bonus
 #-------------------------------
 [BEAST]
@@ -343,7 +348,6 @@ Type = FIGHTING
 Category = Special
 Cost = 20
 Rank = 9
-FormNumber = 28
 Description = When the beast finally awakens
 #-------------------------------
 [SSJ3]
@@ -352,7 +356,6 @@ Type = LIGHT
 Category = Special
 Cost = 25
 Rank = 5
-FormNumber = 30
 Description = The last stage of regular SSj evolution
 #-------------------------------
 [SSJ3FULLPOWER]
@@ -361,7 +364,6 @@ Type = LIGHT
 Category = Special
 Cost = 20
 Rank = 6
-FormNumber = 33
 Description = A perfected SSj3
 #-------------------------------
 [BEYONDGOD]
@@ -370,7 +372,6 @@ Type = DIVINE
 Category = Special
 Cost = 1
 Rank = 7
-FormNumber = 40
 Description = Tap into God Ki usage
 #-------------------------------
 [SSJGOD]
@@ -379,7 +380,6 @@ Type = DIVINE
 Category = Special
 Cost = 12
 Rank = 8
-FormNumber = 41
 Description = A Saiyan that uses godly Ki
 #-------------------------------
 [SSJBLUE]
@@ -388,7 +388,6 @@ Type = DIVINE
 Category = Special
 Cost = 22
 Rank = 9
-FormNumber = 50
 Description = The SSj version of a SSj God
 #-------------------------------
 [SSJBLUEEVOLVED]
@@ -397,7 +396,6 @@ Type = DIVINE
 Category = Special
 Cost = 24
 Rank = 1
-FormNumber = 51
 Description = The SSj version of a SSj God
 #-------------------------------
 [SSJBLUEPERFECTED]
@@ -406,7 +404,6 @@ Type = DIVINE
 Category = Special
 Cost = 28
 Rank = 10
-FormNumber = 53
 Description = SSj Blue with no Ki leaks
 #-------------------------------
 [SSJROSE]
@@ -415,7 +412,6 @@ Type = DIVINE
 Category = Special
 Cost = 22
 Rank = 9
-FormNumber = 55
 Description = The SSj Blue version of a pure godly being
 #-------------------------------
 [SSJROSE2]
@@ -424,7 +420,6 @@ Type = DIVINE
 Category = Special
 Cost = 28
 Rank = 10
-FormNumber = 56
 Description = The SSj2 version of a SSj Rosé
 #-------------------------------
 [SSJROSE3]
@@ -432,8 +427,6 @@ Name = SSj Rosé 3
 Type = DIVINE
 Category = Special
 Cost = 37
-Rank = 11
-FormNumber = 57
 Description = The SSj3 version of a SSj Rosé
 #-------------------------------
 [SSJROSEFULLPOWER]
@@ -442,7 +435,6 @@ Type = DIVINE
 Category = Special
 Cost = 30
 Rank = 12
-FormNumber = 58
 Description = The culmination of SSj Rosé
 #-------------------------------
 [UISIGN]
@@ -451,7 +443,6 @@ Type = DIVINE
 Category = Special
 Cost = 23
 Rank = 11
-FormNumber = 60
 Description = First glimpse of Ultra Instinct
 #-------------------------------
 [MUI]
@@ -460,7 +451,6 @@ Type = DIVINE
 Category = Special
 Cost = 28
 Rank = 12
-FormNumber = 61
 Description = Mastered Ultra Instinct
 #-------------------------------
 [UE]
@@ -469,7 +459,6 @@ Type = DIVINE
 Category = Special
 Cost = 28
 Rank = 12
-FormNumber = 62
 Description = Enjoy destruction!
 #-------------------------------
 [SSJ4]
@@ -478,7 +467,6 @@ Type = LIGHT
 Category = Special
 Cost = 22
 Rank = 9
-FormNumber = 70
 Description = This happens after taming a Golden Oozaru!
 #-------------------------------
 [SSJ4LIMITBREAKER]
@@ -487,7 +475,6 @@ Type = LIGHT
 Category = Special
 Cost = 28
 Rank = 11
-FormNumber = 71
 Description = A SSj4 that broke its limits
 #-------------------------------
 [SSJ4FULLPOWER]
@@ -496,7 +483,6 @@ Type = LIGHT
 Category = Special
 Cost = 24
 Rank = 10
-FormNumber = 73
 Description = A SSj4 with more power than normal
 #-------------------------------
 [DARKDEMON]
@@ -505,7 +491,6 @@ Type = DARK
 Category = Special
 Cost = 8
 Rank = 5
-FormNumber = 80
 Description = A Demon when it absorbs enough dark energy
 #-------------------------------
 [DEMONGOD]
@@ -514,7 +499,6 @@ Type = DIVINE
 Category = Special
 Cost = 16
 Rank = 8
-FormNumber = 81
 Description = Demonic version of godly ki usage
 #-------------------------------
 [DEMONGOD2]
@@ -523,7 +507,6 @@ Type = DIVINE
 Category = Special
 Cost = 20
 Rank = 9
-FormNumber = 82
 Description = Enhanced version of Demon God
 #-------------------------------
 [DARKFACTOR]
@@ -532,7 +515,6 @@ Type = DIVINE
 Category = Special
 Cost = 22
 Rank = 10
-FormNumber = 83
 Description = Only the Demon King can grant this form
 #-------------------------------
 [TRUEDEMONGOD]
@@ -541,7 +523,6 @@ Type = DIVINE
 Category = Special
 Cost = 26
 Rank = 11
-FormNumber = 84
 Description = A Demon God that uses all of its divine power to turn giant
 #-------------------------------
 [TRANSCENDEDDEMONGOD]
@@ -550,7 +531,6 @@ Type = DIVINE
 Category = Special
 Cost = 28
 Rank = 12
-FormNumber = 28
 Description = The most powerful form a Demon God can achieve
 #-------------------------------
 [GOLDEN]
@@ -559,7 +539,6 @@ Type = WATER
 Category = Special
 Cost = 25
 Rank = 9
-FormNumber = 90
 Description = When Ice Demons train for the first time in their life!
 #-------------------------------
 [TRUEGOLDEN]
@@ -568,7 +547,6 @@ Type = WATER
 Category = Special
 Cost = 20
 Rank = 10
-FormNumber = 91
 Description = Perfected Golden form that consumes less stamina
 #-------------------------------
 [MONSTER]
@@ -577,7 +555,6 @@ Type = FIGHTING
 Category = Special
 Cost = 5
 Rank = 1
-FormNumber = 100
 Description = Transform into an ugly monster
 #-------------------------------
 [HALO]
@@ -586,7 +563,6 @@ Type = DIVINE
 Category = Special
 Cost = 28
 Rank = 12
-FormNumber = 101
 Description = Manifest an halo to make full use of divine powers
 #-------------------------------
 [DESTROYER]
@@ -595,7 +571,6 @@ Type = DIVINE
 Category = Special
 Cost = 25
 Rank = 11
-FormNumber = 102
 Description = Power of Destruction everywhere!
 #-------------------------------
 [EVILSAIYAN]
@@ -604,7 +579,6 @@ Type = FIGHTING
 Category = Special
 Cost = 8
 Rank = 1
-FormNumber = 103
 Description = The power of ancient evil Saiyans
 #-------------------------------
 [ATTACKORDER]
@@ -3742,7 +3716,7 @@ Description = The user whips up a turbulent whirlwind that ups the Speed of all 
 #-------------------------------
 [ASTRALBARRAGE]
 Name = Astral Barrage
-Type = GHOST
+Type = DIVINE
 Category = Special
 Power = 120
 Accuracy = 100
@@ -3750,11 +3724,11 @@ TotalPP = 5
 Target = AllNearFoes
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
+Description = The user attacks by sending a frightful amount of small DIVINEs at opposing Pokémon.
 #-------------------------------
 [SHADOWFORCE]
 Name = Shadow Force
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 120
 Accuracy = 100
@@ -3766,7 +3740,7 @@ Description = The user disappears, then strikes the foe on the second turn. It h
 #-------------------------------
 [POLTERGEIST]
 Name = Poltergeist
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 110
 Accuracy = 90
@@ -3778,7 +3752,7 @@ Description = Attacks the target by controlling its item. The move fails if the 
 #-------------------------------
 [MOONGEISTBEAM]
 Name = Moongeist Beam
-Type = GHOST
+Type = DIVINE
 Category = Special
 Power = 100
 Accuracy = 100
@@ -3790,7 +3764,7 @@ Description = The user emits a sinister ray. This move can be used on the target
 #-------------------------------
 [PHANTOMFORCE]
 Name = Phantom Force
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 90
 Accuracy = 100
@@ -3802,7 +3776,7 @@ Description = The user vanishes somewhere, then strikes on the next turn. Hits t
 #-------------------------------
 [SPECTRALTHIEF]
 Name = Spectral Thief
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 90
 Accuracy = 100
@@ -3814,7 +3788,7 @@ Description = The user hides in the target's shadow, steals the target's stat bo
 #-------------------------------
 [SHADOWBONE]
 Name = Shadow Bone
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 85
 Accuracy = 100
@@ -3827,7 +3801,7 @@ Description = The user beats the target with a bone containing a spirit. May low
 #-------------------------------
 [SHADOWBALL]
 Name = Shadow Ball
-Type = GHOST
+Type = DIVINE
 Category = Special
 Power = 80
 Accuracy = 100
@@ -3840,7 +3814,7 @@ Description = The user hurls a shadowy blob at the target. It may also lower the
 #-------------------------------
 [SPIRITSHACKLE]
 Name = Spirit Shackle
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 80
 Accuracy = 100
@@ -3853,7 +3827,7 @@ Description = The user attacks while also stitching the target's shadow to the g
 #-------------------------------
 [SHADOWCLAW]
 Name = Shadow Claw
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 70
 Accuracy = 100
@@ -3865,7 +3839,7 @@ Description = The user slashes with a sharp claw made from shadows. Critical hit
 #-------------------------------
 [HEX]
 Name = Hex
-Type = GHOST
+Type = DIVINE
 Category = Special
 Power = 65
 Accuracy = 100
@@ -3877,7 +3851,7 @@ Description = This relentless attack does massive damage to a target affected by
 #-------------------------------
 [OMINOUSWIND]
 Name = Ominous Wind
-Type = GHOST
+Type = DIVINE
 Category = Special
 Power = 60
 Accuracy = 100
@@ -3890,7 +3864,7 @@ Description = The user blasts the target with a gust of repulsive wind. It may a
 #-------------------------------
 [SHADOWPUNCH]
 Name = Shadow Punch
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 60
 Accuracy = 0
@@ -3902,7 +3876,7 @@ Description = The user throws a punch from the shadows. The punch lands without 
 #-------------------------------
 [SHADOWSNEAK]
 Name = Shadow Sneak
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 40
 Accuracy = 100
@@ -3915,7 +3889,7 @@ Description = The user extends its shadow and attacks the target from behind. Th
 #-------------------------------
 [ASTONISH]
 Name = Astonish
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 30
 Accuracy = 100
@@ -3928,7 +3902,7 @@ Description = The user attacks the target while shouting in a startling fashion.
 #-------------------------------
 [LICK]
 Name = Lick
-Type = GHOST
+Type = DIVINE
 Category = Physical
 Power = 30
 Accuracy = 100
@@ -3941,7 +3915,7 @@ Description = The target is licked with a long tongue, causing damage. It may al
 #-------------------------------
 [NIGHTSHADE]
 Name = Night Shade
-Type = GHOST
+Type = DIVINE
 Category = Special
 Power = 1
 Accuracy = 100
@@ -3953,7 +3927,7 @@ Description = The user makes the foe see a frightening mirage. It inflicts damag
 #-------------------------------
 [CONFUSERAY]
 Name = Confuse Ray
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 100
 TotalPP = 10
@@ -3964,17 +3938,17 @@ Description = The target is exposed to a sinister ray that triggers confusion.
 #-------------------------------
 [CURSE]
 Name = Curse
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = CurseTargetOrLowerUserSpd1RaiseUserAtkDef1
-Description = A move that works differently for the Ghost type than for all the other types.
+Description = A move that works differently for the DIVINE type than for all the other types.
 #-------------------------------
 [DESTINYBOND]
 Name = Destiny Bond
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 0
 TotalPP = 5
@@ -3984,7 +3958,7 @@ Description = When this move is used, if the user faints, the foe that landed th
 #-------------------------------
 [GRUDGE]
 Name = Grudge
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 0
 TotalPP = 5
@@ -3994,7 +3968,7 @@ Description = If the user faints, the user's grudge fully depletes the PP of the
 #-------------------------------
 [NIGHTMARE]
 Name = Nightmare
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 100
 TotalPP = 15
@@ -4005,7 +3979,7 @@ Description = A sleeping target sees a nightmare that inflicts some damage every
 #-------------------------------
 [SPITE]
 Name = Spite
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 100
 TotalPP = 10
@@ -4016,14 +3990,14 @@ Description = The user unleashes its grudge on the move last used by the target 
 #-------------------------------
 [TRICKORTREAT]
 Name = Trick-or-Treat
-Type = GHOST
+Type = DIVINE
 Category = Status
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
-FunctionCode = AddGhostTypeToTarget
+FunctionCode = AddDIVINETypeToTarget
 Flags = CanProtect,CanMirrorMove
-Description = The user takes the target trick-or-treating. This adds Ghost type to the target's type.
+Description = The user takes the target trick-or-treating. This adds DIVINE type to the target's type.
 #-------------------------------
 [FRENZYPLANT]
 Name = Frenzy Plant
@@ -6525,9 +6499,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 40
 Target = NearOther
-FunctionCode = StartNegateTargetEvasionStatStageAndGhostImmunity
+FunctionCode = StartNegateTargetEvasionStatStageAndDIVINEImmunity
 Flags = CanProtect,CanMirrorMove
-Description = Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.
+Description = Enables the user to hit a DIVINE type with any kind of move. It also enables the user to hit an evasive foe.
 #-------------------------------
 [GLARE]
 Name = Glare
@@ -6789,9 +6763,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 40
 Target = NearOther
-FunctionCode = StartNegateTargetEvasionStatStageAndGhostImmunity
+FunctionCode = StartNegateTargetEvasionStatStageAndDIVINEImmunity
 Flags = CanProtect,CanMirrorMove
-Description = Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.
+Description = Enables the user to hit a DIVINE type with any type of move. It also enables the user to hit an evasive foe.
 #-------------------------------
 [PAINSPLIT]
 Name = Pain Split

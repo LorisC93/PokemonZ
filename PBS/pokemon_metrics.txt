@@ -10,7 +10,17 @@ FrontSprite = 0,5
 ShadowX = 3
 ShadowSize = 1
 #-------------------------------
-[GOKUKID,9]
+[GOKU]
+FrontSprite = -10,8
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[GOKU,SSJ2]
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GOKUKID,OOZARU]
 FrontSprite = 0,30
 ShadowX = 0
 ShadowSize = 5
