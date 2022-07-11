@@ -4,7 +4,7 @@
 Name = Normal
 IconPosition = 0
 Weaknesses = STEEL,DARK,DIVINE
-Resistances = DIVINE
+Immunities = DIVINE
 #-------------------------------
 [FIGHTING]
 Name = Fighting
