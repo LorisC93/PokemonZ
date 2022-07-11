@@ -3,127 +3,100 @@
 [NORMAL]
 Name = Normal
 IconPosition = 0
-Weaknesses = FIGHTING
-Immunities = DIVINE
+Weaknesses = STEEL,DARK,DIVINE
+Resistances = DIVINE
 #-------------------------------
 [FIGHTING]
 Name = Fighting
 IconPosition = 1
-Weaknesses = WIND,PSYCHIC,LIGHT
-Resistances = ROCK,BUG,DARK
+Weaknesses = PSYCHIC,DIVINE
+Resistances = STEEL,DARK
+#-------------------------------
+[FIRE]
+Name = Fire
+IconPosition = 2
+IsSpecialType = true
+Weaknesses = WATER,WIND,GROUND
+Resistances = FIRE,GRASS,ICE
+#-------------------------------
+[WATER]
+Name = Water
+IconPosition = 3
+IsSpecialType = true
+Weaknesses = ICE,GRASS,ELECTRIC,ELECTRIC,POISON
+Resistances = FIRE,WATER,GROUND,STEEL
+#-------------------------------
+[ICE]
+Name = Ice
+IconPosition = 4
+IsSpecialType = true
+Weaknesses = FIGHTING,FIRE,STEEL
+Resistances = ICE,WIND,GRASS
 #-------------------------------
 [WIND]
 Name = Wind
-IconPosition = 2
-Weaknesses = ROCK,ELECTRIC,ICE
-Resistances = FIGHTING,BUG,GRASS
+IconPosition = 5
+Weaknesses = ICE,GRASS,ELECTRIC
+Resistances = FIRE
 Immunities = GROUND
 #-------------------------------
-[POISON]
-Name = Poison
-IconPosition = 3
-Weaknesses = GROUND,PSYCHIC
-Resistances = FIGHTING,POISON,BUG,GRASS,LIGHT
+[GRASS]
+Name = Grass
+IconPosition = 6
+IsSpecialType = true
+Weaknesses = FIRE,ICE,GROUND,POISON,DARK
+Resistances = WATER,WIND,GRASS,LIGHT
 #-------------------------------
 [GROUND]
 Name = Ground
-IconPosition = 4
-Weaknesses = WATER,GRASS,ICE
-Resistances = POISON,ROCK
-Immunities = ELECTRIC
-#-------------------------------
-[ROCK]
-Name = Rock
-IconPosition = 5
-Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS
-Resistances = NORMAL,WIND,POISON,FIRE
-#-------------------------------
-[BUG]
-Name = Bug
-IconPosition = 6
-Weaknesses = WIND,ROCK,FIRE
-Resistances = FIGHTING,GROUND,GRASS
-#-------------------------------
-[DIVINE]
-Name = Divine
 IconPosition = 7
-Weaknesses = DIVINE,DARK
-Resistances = POISON,BUG
-Immunities = NORMAL,FIGHTING
+Weaknesses = WATER,WIND,GRASS,POISON
+Resistances = FIRE,GROUND
+Immunities = ELECTRIC
 #-------------------------------
 [STEEL]
 Name = Steel
 IconPosition = 8
-Weaknesses = FIGHTING,GROUND,FIRE
-Resistances = NORMAL,WIND,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,LIGHT
+Weaknesses = NORMAL,FIRE,WATER,GROUND
+Resistances = FIGHTING,ICE,ELECTRIC
 Immunities = POISON
-#-------------------------------
-[QMARKS]
-Name = ???
-IconPosition = 9
-IsPseudoType = true
-#-------------------------------
-[FIRE]
-Name = Fire
-IconPosition = 10
-IsSpecialType = true
-Weaknesses = GROUND,ROCK,WATER
-Resistances = BUG,STEEL,FIRE,GRASS,ICE,LIGHT
-#-------------------------------
-[WATER]
-Name = Water
-IconPosition = 11
-IsSpecialType = true
-Weaknesses = GRASS,ELECTRIC
-Resistances = STEEL,FIRE,WATER,ICE
-#-------------------------------
-[GRASS]
-Name = Grass
-IconPosition = 12
-IsSpecialType = true
-Weaknesses = WIND,POISON,BUG,FIRE,ICE
-Resistances = GROUND,WATER,GRASS,ELECTRIC
 #-------------------------------
 [ELECTRIC]
 Name = Electric
-IconPosition = 13
+IconPosition = 9
 IsSpecialType = true
 Weaknesses = GROUND
-Resistances = WIND,STEEL,ELECTRIC
+Resistances = WIND,ELECTRIC
+#-------------------------------
+[POISON]
+Name = Poison
+IconPosition = 10
+Weaknesses = NORMAL,PSYCHIC
+Resistances = GRASS,POISON
 #-------------------------------
 [PSYCHIC]
 Name = Psychic
-IconPosition = 14
+IconPosition = 11
 IsSpecialType = true
-Weaknesses = BUG,DIVINE,DARK
-Resistances = FIGHTING,PSYCHIC
-#-------------------------------
-[ICE]
-Name = Ice
-IconPosition = 15
-IsSpecialType = true
-Weaknesses = FIGHTING,ROCK,STEEL,FIRE
-Resistances = ICE
-#-------------------------------
-[DRAGON]
-Name = Dragon
-IconPosition = 16
-IsSpecialType = true
-Weaknesses = ICE,DRAGON,LIGHT
-Resistances = FIRE,WATER,GRASS,ELECTRIC
+Weaknesses = FIGHTING
+Resistances = PSYCHIC
 #-------------------------------
 [DARK]
 Name = Dark
-IconPosition = 17
+IconPosition = 12
 IsSpecialType = true
-Weaknesses = FIGHTING,BUG,LIGHT
-Resistances = DIVINE,DARK
-Immunities = PSYCHIC
+Weaknesses = FIGHTING,LIGHT,DIVINE
+Resistances = GRASS,POISON,PSYCHIC,DARK
 #-------------------------------
 [LIGHT]
 Name = Light
-IconPosition = 18
+IconPosition = 13
 IsSpecialType = true
-Weaknesses = POISON,STEEL
-Resistances = FIGHTING,BUG,DARK
-Immunities = DRAGON
+Weaknesses = PSYCHIC,DARK,DIVINE
+Resistances = FIGHTING,LIGHT
+#-------------------------------
+[DIVINE]
+Name = Divine
+IconPosition = 14
+Weaknesses = DIVINE
+Resistances = NORMAL,PSYCHIC,DARK,LIGHT
