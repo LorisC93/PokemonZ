@@ -1,5 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
+#---------------------------------------------------------------------------------------------
+# Single hit non-Ki based Attacks
+#---------------------------------------------------------------------------------------------
 [PUNCH]
 Name = Punch
 Type = FIGHTING
@@ -55,40 +57,6 @@ Target = NearOther
 FunctionCode = None
 Description = The user cuts through the opponent using a sharp weapon.
 #-------------------------------
-[AFTERIMAGE]
-Name = Afterimage
-Type = WIND
-Category = Status
-Power = 0
-Accuracy = 100
-TotalPP = 35
-Target = User
-FunctionCode = RaiseUserSpeed1
-Description = The user moves so fast it leaves residual copies behind. Increases the user's SPD.
-#-------------------------------
-[AFTERIMAGESTRIKE]
-Name = Afterimage Strike
-Type = WIND
-Category = Status
-Power = 0
-Accuracy = 100
-TotalPP = 30
-Target = User
-FunctionCode = RaiseUserSpeed2
-Description = An enhanced variation of Afterimage which creates even more copies. Sharply increases the user's SPD.
-#-------------------------------
-[KIAI]
-Name = Kiai
-Type = WIND
-Category = Special
-Power = 30
-Accuracy = 100
-TotalPP = 35
-Target = NearOther
-Priority = 1
-FunctionCode = None
-Description = A fast attack that uses air currents to attack the opponent.
-#-------------------------------
 [GUNSHOT]
 Name = Gun Shot
 Type = FIRE
@@ -111,6 +79,30 @@ Target = Other
 FunctionCode = None
 Description = The user shots an opponent with a technologically advanced gun that fires laser beams instead of bullets.
 #-------------------------------
+[GRENADELAUNCH]
+Name = Grenade Launch
+Type = FIRE
+Category = Physical
+Power = 50
+Accuracy = 90
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = None
+Description = The user throws a grenade at the opponent's team.
+#-------------------------------
+[ROCKETLAUNCHER]
+Name = Rocket Launcher
+Type = FIRE
+Category = Physical
+Power = 55
+Accuracy = 90
+TotalPP = 15
+Target = AllFoes
+FunctionCode = None
+Description = The user fires a missile using a rocket launcher at the opponent's team.
+#---------------------------------------------------------------------------------------------
+# Multi hit non-Ki based Attacks (Rush Attacks)
+#---------------------------------------------------------------------------------------------
 [MACHINEGUNBARRAGE]
 Name = Machine Gun Barrage
 Type = FIRE
@@ -134,28 +126,472 @@ Target = Other
 FunctionCode = HitTwoToFiveTimes
 FunctionCode = None
 Description = A barrage of laser beams are fired against an opponent.
+#---------------------------------------------------------------------------------------------
+# Single hit Ki-based Attacks
+#---------------------------------------------------------------------------------------------
+[FINGERBEAM]
+Name = Finger Beam
+Type = NORMAL
+Category = Special
+Power = 20
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Description = A small ki beam released from a single finger.
 #-------------------------------
-[GRENADELAUNCH]
-Name = Grenade Launch
-Type = FIRE
-Category = Physical
-Power = 50
+[EYELASER]
+Name = Eye Laser
+Type = NORMAL
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Description = Suddenly fire small ki beams from the eyes.
+#-------------------------------
+[KIBLAST]
+Name = Ki Blast
+Type = NORMAL
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Description = The most basic form of Ki-based attack.
+#-------------------------------
+[KIWAVE]
+Name = Ki Wave
+Type = NORMAL
+Category = Special
+Power = 30
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Description = A Ki Blast sustained by a maintained flow of energy.
+#-------------------------------
+[KIAI]
+Name = Kiai
+Type = WIND
+Category = Special
+Power = 30
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Description = A fast attack that uses air currents to attack the opponent.
+#-------------------------------
+[FULLPOWERKIBLAST]
+Name = Full Power Ki Blast
+Type = NORMAL
+Category = Special
+Power = 35
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = None
+Description = A supercharged Ki Blast.
+#-------------------------------
+[GALICKBEAM]
+Name = Galick Beam
+Type = NORMAL
+Category = Special
+Power = 35
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Description = A fast finger beam version of Galick Gun.
+#-------------------------------
+[SPIRITBALL]
+Name = Spirit Ball
+Type = NORMAL
+Category = Special
+Power = 40
+Accuracy = 0
+TotalPP = 30
+Target = NearOther
+FunctionCode = None
+Description = A Ki Blast that can be controlled by moving the fingers.
+#-------------------------------
+[VOLCANOEXPLOSION]
+Name = Volcano Explosion
+Type = NORMAL
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = AllFoes
+Priority = 1
+Description = Set off a huge explosion under your enemy!
+#-------------------------------
+[MAIDENSFLASH]
+Name = Maiden's Flash
+Type = NORMAL
+Category = Special
+Power = 45
 Accuracy = 90
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Description = A weaker version of Maiden's Rage
+#-------------------------------
+[TRIBEAM]
+Name = Tri-Beam
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = DamageUserHPEqualToPower
+Description = A life-risking attack thought to Crane School students
+#-------------------------------
+[GALICKGUN]
+Name = Galick Gun
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Description = A Ki Blast that's weaker than a Kamehameha, but it is faster
+#-------------------------------
+[DESTRUCTODISK]
+Name = Destructo Disk
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+Flags = HighCriticalHitRate
+FunctionCode = None
+Description = A sharp disk shaped ki is fired at the opponent.
+#-------------------------------
+[SATURDAYCRUSH]
+Name = Galick Gun
+Type = NORMAL
+Category = Special
+Power = 55
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ParalyzeTarget
+EffectChance = 60
+Description = A Ki Blast with powerful homing abilities. Paralyzes opponents on impact.
+#-------------------------------
+[EXPLOSIVEWAVE]
+Name = Explosive Wave
+Type = NORMAL
+Category = Special
+Power = 55
+Accuracy = 10
+TotalPP = 20
+Target = AllNearOthers
+FunctionCode = None
+Description = The user makes its ki explode to damage everyone in its vicinity
+#-------------------------------
+[CHASINGBULLET]
+Name = Chasing Bullet
+Type = NORMAL
+Category = Special
+Power = 55
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = An homing Ki Wave that never misses its target.
+#-------------------------------
+[SCATTERINGBULLET]
+Name = Scattering Bullet
+Type = NORMAL
+Category = Special
+Power = 55
+Accuracy = 95
 TotalPP = 20
 Target = AllNearFoes
 FunctionCode = None
-Description = The user throws a grenade at the opponent's team.
+Description = A Ki Wave that breaks into an area attack just before hitting the opponent.
 #-------------------------------
-[ROCKETLAUNCHER]
-Name = Rocket Launcher
-Type = FIRE
-Category = Physical
-Power = 55
+[CALAMITYBLASTER]
+Name = Calamity Blaster
+Type = NORMAL
+Category = Special
+Power = 60
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = The Kamehameha variant of the evil Saiyan clone of Goku
+#-------------------------------
+[KAMEHAMEHA]
+Name = Kamehameha
+Type = NORMAL
+Category = Special
+Power = 60
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = The signature attack of the Turtle School students
+#-------------------------------
+[BENDINGKAMEHAMEHA]
+Name = Bending Kamehameha
+Type = NORMAL
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = A Kamehameha that can change direction to follow the opponent
+#-------------------------------
+[MASENKO]
+Name = Masenko
+Type = NORMAL
+Category = Special
+Power = 65
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = A Ki wave invented by Piccolo and passed down to Gohan.
+#-------------------------------
+[DOUBLEMASENKO]
+Name = Double Masenko
+Type = NORMAL
+Category = Special
+Power = 65
+Accuracy = 95
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = None
+Description = A Masenko fired with each hand to hit more opponents at once.
+#-------------------------------
+[EXPLOSIVEMASENKO]
+Name = Explosive Masenko
+Type = NORMAL
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = A close-range version of Masenko.
+#-------------------------------
+[BOMBERDX]
+Name = Bomber DX
+Type = NORMAL
+Category = Special
+Power = 70
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = A powerful Energy Sphere used by Nappa
+#-------------------------------
+[MAIDENSRAGE]
+Name = Maiden's Rage
+Type = NORMAL
+Category = Special
+Power = 70
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = Never enrage a girl that can use Ki!
+#-------------------------------
+[DOUBLESUNDAY]
+Name = Double Sunday
+Type = NORMAL
+Category = Special
+Power = 70
+Accuracy = 95
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = None
+Description = The signature attack of Raditz.
+#-------------------------------
+[SUPERSPIRITBALL]
+Name = Super Spirit Ball
+Type = NORMAL
+Category = Special
+Power = 70
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = An enormous Spirit Ball!
+#-------------------------------
+[SPECIALBEAMBLAST]
+Name = Special Beam Blast
+Type = NORMAL
+Category = Special
+Power = 75
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = A Special Beam Cannon without the charging time requirements
+#-------------------------------
+[POWERBLITZ]
+Name = Power Blitz
+Type = NORMAL
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = A Ki Blast in a V-pattern that pincers an opponent.
+#-------------------------------
+[SUPEREXPLOSIVEWAVE]
+Name = Super Explosive Wave
+Type = NORMAL
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 20
+Target = AllNearOthers
+FunctionCode = None
+Description = An bigger and more powerful version of Explosive Wave
+#-------------------------------
+[SUPERKAMEHAMEHA]
+Name = Super Kamehameha
+Type = NORMAL
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = An extremely powerful Kamehameha.
+#-------------------------------
+[SHININGFRIDAY]
+Name = Shining Friday
+Type = NORMAL
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+EffectChance = 50
+Description = Fire a powerful Ki Blast. May make the target SP.ATK.
+#-------------------------------
+[NEOTRIBEAM]
+Name = Neo Tri-Beam
+Type = NORMAL
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = DamageUserHPEqualToPower
+Description = A more powerful version of Tri-Beam, but with the same drawbacks.
+#-------------------------------
+[KILLDRIVER]
+Name = Kill Driver
+Type = NORMAL
+Category = Special
+Power = 85
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Description = An extremely powerful ring-shaped Ki attack.
+#-------------------------------
+[SUPERMASENKO]
+Name = Super Masenko
+Type = NORMAL
+Category = Special
+Power = 85
 Accuracy = 90
 TotalPP = 15
-Target = AllFoes
+Target = NearOther
 FunctionCode = None
-Description = The user fires a missile using a rocket launcher at the opponent's team.
+Description = An upgraded Masenko.
+#-------------------------------
+[MOUTHBLAST]
+Name = Mouth Blast
+Type = NORMAL
+Category = Special
+Power = 85
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Description = A destructive energy wave fired from the mouth. Tipically used by Giant characters.
+#-------------------------------
+[SCANNINGMOUTHBLAST]
+Name = Scanning Mouth Blast
+Type = NORMAL
+Category = Special
+Power = 85
+Accuracy = 95
+TotalPP = 15
+Target = AllNearOther
+FunctionCode = None
+Description = A scanning version of Mouth Blast that hits everyone in its path.
+#-------------------------------
+[BURNINGATTACK]
+Name = Burning Attack
+Type = NORMAL
+Category = Special
+Power = 90
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Description = A powerful blast of energy is fired after rapidly moving the hands in a ninja-like fashion.
+#-------------------------------
+[ULTIMATEBLITZ]
+Name = Power Blitz
+Type = NORMAL
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Description = A perfected Power Blitz.
+#---------------------------------------------------------------------------------------------
+# Multi hit Ki-based Attacks
+#---------------------------------------------------------------------------------------------
+
+#---------------------------------------------------------------------------------------------
+# Positive status moves (Power ups)
+#---------------------------------------------------------------------------------------------
+[AFTERIMAGE]
+Name = Afterimage
+Type = WIND
+Category = Status
+Power = 0
+Accuracy = 100
+TotalPP = 35
+Target = User
+FunctionCode = RaiseUserSpeed1
+Description = The user moves so fast it leaves residual copies behind. Increases the user's SPD.
+#-------------------------------
+[AFTERIMAGESTRIKE]
+Name = Afterimage Strike
+Type = WIND
+Category = Status
+Power = 0
+Accuracy = 100
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserSpeed2
+Description = An enhanced variation of Afterimage which creates even more copies. Sharply increases the user's SPD.
 #-------------------------------
 [POWERCHARGE]
 Name = Power Charge
@@ -189,7 +625,9 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserSpAtk3
 Description = The most powerful variation of Power Charge. Drastically increases Special Attack.
-#-------------------------------
+#---------------------------------------------------------------------------------------------
+# Negative status moves
+#---------------------------------------------------------------------------------------------
 [SOLARFLARE]
 Name = Solar Flare
 Type = LIGHT
@@ -219,7 +657,10 @@ TotalPP = 10
 Target = AllNearFoes
 FunctionCode = LowerTargetAccuracy3
 Description = A perfected Solar Flare that drastically cuts the target's accuracy.
-#-------------------------------
+
+#---------------------------------------------------------------------------------------------
+# Transformations
+#---------------------------------------------------------------------------------------------
 [FULLPOWER]
 Name = Full Power
 Type = FIGHTING
@@ -580,7 +1021,9 @@ Category = Special
 Cost = 8
 Rank = 1
 Description = The power of ancient evil Saiyans
-#-------------------------------
+#---------------------------------------------------------------------------------------------
+# End of Transformations
+#---------------------------------------------------------------------------------------------
 [ATTACKORDER]
 Name = Attack Order
 Type = BUG
