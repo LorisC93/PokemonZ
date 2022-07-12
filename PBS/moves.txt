@@ -112,7 +112,6 @@ Accuracy = 90
 TotalPP = 20
 Target = Other
 FunctionCode = HitTwoToFiveTimes
-FunctionCode = None
 Description = Continuous firearm bullets are fired against an opponent.
 #-------------------------------
 [RAYGUNBARRAGE]
@@ -124,7 +123,6 @@ Accuracy = 90
 TotalPP = 15
 Target = Other
 FunctionCode = HitTwoToFiveTimes
-FunctionCode = None
 Description = A barrage of laser beams are fired against an opponent.
 #---------------------------------------------------------------------------------------------
 # Single hit Ki-based Attacks
@@ -241,6 +239,18 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = None
 Description = A weaker version of Maiden's Rage
+#-------------------------------
+[SWORDBLAST]
+Name = Sword Blast
+Type = STEEL
+Category = Special
+Power = 45
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = HighCriticalHitRate
+Description = A sharp Ki Wave channeled through a sword.
 #-------------------------------
 [TRIBEAM]
 Name = Tri-Beam
@@ -454,6 +464,18 @@ Target = NearOther
 FunctionCode = None
 Description = A Ki Blast in a V-pattern that pincers an opponent.
 #-------------------------------
+[THUNDERSHOCKSURPRISE]
+Name = Thunder Shock Surprise
+Type = ELECTRIC
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+EffectChance = 60
+Description = A move that changes all of the energy in the body into 20,000 volts of electricity!
+#-------------------------------
 [SUPEREXPLOSIVEWAVE]
 Name = Super Explosive Wave
 Type = NORMAL
@@ -521,7 +543,7 @@ Target = NearOther
 FunctionCode = None
 Description = An upgraded Masenko.
 #-------------------------------
-[MOUTHBLAST]
+[MOUTHWAVE]
 Name = Mouth Blast
 Type = NORMAL
 Category = Special
@@ -532,7 +554,7 @@ Target = NearOther
 FunctionCode = None
 Description = A destructive energy wave fired from the mouth. Tipically used by Giant characters.
 #-------------------------------
-[SCANNINGMOUTHBLAST]
+[SCANNINGMOUTHWAVE]
 Name = Scanning Mouth Blast
 Type = NORMAL
 Category = Special
@@ -564,10 +586,300 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = None
 Description = A perfected Power Blitz.
+#-------------------------------
+[BIGBANGATTACK]
+Name = Big Bang Attack
+Type = NORMAL
+Category = Special
+Power = 95
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Description = Such a grandiose name for such an ordinary ki blast!
+#-------------------------------
+[VACATIONDELETE]
+Name = Vacation Delete
+Type = NORMAL
+Category = Special
+Power = 100
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTarget
+EffectChance = 60
+Description = An extremely powerful version of Saturday Crash.
+#-------------------------------
+[HEATDOMEATTACK]
+Name = Heat Dome Attack
+Type = NORMAL
+Category = Special
+Power = 105
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Description = Trunks' big move. Shoot a huge Ki Wave straight up!
+#-------------------------------
+[TRUEKAMEHAMEHA]
+Name = True Kamehameha
+Type = NORMAL
+Category = Special
+Power = 110
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Description = An even more powerful version of Kamehameha.
+#-------------------------------
+[SUPERGALICKGUN]
+Name = Super Galick Gun
+Type = NORMAL
+Category = Special
+Power = 110
+Accuracy = 95
+TotalPP = 10
+Priority = 1
+Target = NearOther
+FunctionCode = None
+Description = a super powerful Galick Gun!
+#-------------------------------
+[SPECIALBEAMCANNON]
+Name = Special Beam Cannon
+Type = NORMAL
+Category = Special
+Power = 115
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttack
+Flags = HighCriticalHitRate
+Description = Concentrate Ki in your fingertips and attack with a fierce Ki Blast!
+#-------------------------------
+[HYPEREXPLOSIVEWAVE]
+Name = Hyper Explosive Wave
+Type = NORMAL
+Category = Special
+Power = 115
+Accuracy = 100
+TotalPP = 10
+Target = AllOthers
+FunctionCode = None
+Description = A ginormous explosion that hits everyone one the battlefield.
+#-------------------------------
+[FINALFLASH]
+Name = Final Flash
+Type = NORMAL
+Category = Special
+Power = 120
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = Once again, you have taken for granted the powers of a true Saiyan warrior!
+#-------------------------------
+[GODKAMEHAMEHA]
+Name = God Kamehameha
+Type = DIVINE
+Category = Special
+Power = 120
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Description = A Kamehameha infused with Godly Ki.
+#-------------------------------
+[GODBIGBANGATTACK]
+Name = God Big Bang Attack
+Type = DIVINE
+Category = Special
+Power = 125
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = A Big Bang Attack infused with Godly Ki.
+#-------------------------------
+[10XKAMEHAMEHA]
+Name = 10x Kamehemahea
+Type = NORMAL
+Category = Special
+Power = 130
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = An extremely powerful red Kamehameha.
+#-------------------------------
+[FINALSHINEATTACK]
+Name = Final Shine Attack
+Type = NORMAL
+Category = Special
+Power = 130
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = An evolution of Final Flash, it assumes a light green colour.
+#-------------------------------
+[HAKAIBALL]
+Name = Hakai Ball
+Type = DIVINE
+Category = Special
+Power = 130
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = A ball of concentrated energy of destruction.
+#-------------------------------
+[SUPREMEKAMEHAMEHA]
+Name = Supreme Kamehameha
+Type = DIVINE
+Category = Special
+Power = 135
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = The most powerful of the godly Kamehameha variants.
+#-------------------------------
+[GODFINALFLASH]
+Name = God Final Flash
+Type = DIVINE
+Category = Special
+Power = 140
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = A Final Flash infused with Godly Ki.
+#-------------------------------
+[FINALATOMICSHINE]
+Name = Final Atomic Shine
+Type = NORMAL
+Category = Special
+Power = 150
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Description = The most powerful variation of Final Flash.
 #---------------------------------------------------------------------------------------------
 # Multi hit Ki-based Attacks
 #---------------------------------------------------------------------------------------------
-
+[CONTINUOUSKIWAVES]
+Name = Continuous Ki Waves
+Type = NORMAL
+Category = Special
+Power = 10
+Accuracy = 100
+TotalPP = 25
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Description = Continuous Ki waves are fired against an opponent.
+#-------------------------------
+[SUDDENSTORM]
+Name = Sudden Storm
+Type = NORMAL
+Category = Special
+Power = 20
+Accuracy = 95
+TotalPP = 15
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Description = Fire a series of evil Ki Blasts!
+#-------------------------------
+[LIGHTNINGSWORDSLASH]
+Name = Lightning Sword Slash
+Type = STEEL
+Category = Special
+Power = 20
+Accuracy = 100
+TotalPP = 20
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Flags = HighCriticalHitRate
+Description = Rapid fire version of Sword Blast.
+#-------------------------------
+[CONTINUOUSMASENKO]
+Name = Continuous Masenko
+Type = NORMAL
+Category = Special
+Power = 25
+Accuracy = 90
+TotalPP = 15
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Description = Fire a barrage of powerful Ki Blasts and a Ki Waves.
+#-------------------------------
+[INFINITYBULLET]
+Name = Infinity Bullet
+Type = NORMAL
+Category = Special
+Power = 28
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Description = Fire a shower of Ki Blasts at the opponent.
+#-------------------------------
+[RELIABLEFRIEND]
+Name = Reliable Friend
+Type = NORMAL
+Category = Special
+Power = 30
+Accuracy = 90
+TotalPP = 10
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Description = When someone doesn't understand even after Maiden's Rage!
+#-------------------------------
+[MOUTHWAVEBARRAGE]
+Name = Mouth Wave Barrage
+Type = NORMAL
+Category = Special
+Power = 35
+Accuracy = 95
+TotalPP = 10
+Target = Other
+FunctionCode = HitTwoToFiveTimes
+Description = Several Mouth Waves firead in rapid succession.
+#---------------------------------------------------------------------------------------------
+# Fixed Damage Attacks
+#---------------------------------------------------------------------------------------------
+[SPIRITBOMB]
+Name = Spirit Bomb
+Type = NORMAL
+Category = Special
+Power = 1
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackDamageBasedOnAliveTeamMembers
+Description = Concentrate the life force of your allies into a gigantic Energy Sphere.
+#-------------------------------
+[MAFUBA]
+Name = Mafuba
+Type = NORMAL
+Category = Special
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKO
+Description = Trap your opponent into a sealed container.
+#-------------------------------
+[HAKAI]
+Name = Hakai
+Type = DIVINE
+Category = Special
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKO
+Description = Instantly erase your opponent from existence.
 #---------------------------------------------------------------------------------------------
 # Positive status moves (Power ups)
 #---------------------------------------------------------------------------------------------
