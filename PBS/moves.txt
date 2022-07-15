@@ -1035,21 +1035,13 @@ Cost = 8
 Rank = 1
 Description = Everything is heightened. Power, speed, even hearing and vision improve dramatically.
 #-------------------------------
-[SUPERKAIOKEN]
-Name = Super Kaio-ken
+[PSEUDOSSJ]
+Name = Pseudo SSj
 Type = LIGHT
 Category = Special
-Cost = 25
-Rank = 3
-Description = SSj and Kaioken combined.
-#-------------------------------
-[SSJBLUEKAIOKEN]
-Name = SSj Blue Kaio-ken
-Type = DIVINE
-Category = Special
-Cost = 30
-Rank = 10
-Description = SSj Blue and Kaioken combined.
+Cost = 8
+Rank = 1
+Description = Use SSj energy without becoming one
 #-------------------------------
 [SSJ]
 Name = SSj
@@ -1058,6 +1050,7 @@ Category = Special
 Cost = 10
 Rank = 2
 Description = Legends have been told on this transformation
+Flags = ReplacePSEUDOSSJ
 #-------------------------------
 [SSJGRADE2]
 Name = SSj Grade 2
@@ -1066,6 +1059,7 @@ Category = Special
 Cost = 15
 Rank = 2
 Description = A SSj that broke the limits of a SSj
+Flags = OnlyFromSSJ
 #-------------------------------
 [SSJGRADE3]
 Name = SSj Grade 3
@@ -1074,6 +1068,7 @@ Category = Special
 Cost = 18
 Rank = 2
 Description = A SSj pushed to its limits
+Flags = OnlyFromSSJ
 #-------------------------------
 [SSJFULLPOWER]
 Name = SSj Full Power
@@ -1082,6 +1077,16 @@ Category = Special
 Cost = 2
 Rank = 3
 Description = The SSj perfection, with no energy flaws
+Flags = ReplaceSSJ,ReplaceSSJGRADE2,ReplaceSSJGRADE3
+#-------------------------------
+[SUPERKAIOKEN]
+Name = Super Kaio-ken
+Type = LIGHT
+Category = Special
+Cost = 25
+Rank = 3
+Description = SSj and Kaioken combined.
+Flags = OnlyFromSSJ
 #-------------------------------
 [LEGENDARYSSJ]
 Name = LSSj
@@ -1090,14 +1095,6 @@ Category = Special
 Cost = 18
 Rank = 3
 Description = The SSj of legends
-#-------------------------------
-[PSEUDOSSJ]
-Name = Pseudo SSj
-Type = LIGHT
-Category = Special
-Cost = 8
-Rank = 1
-Description = Use SSj energy without becoming one
 #-------------------------------
 [SSJ2]
 Name = SSj2
@@ -1116,7 +1113,7 @@ Rank = 9
 Description = Never enrage a SSj!
 #-------------------------------
 [POTENTIALUNLEASHED]
-Name = Potential Unleashed
+Name = Ultimate
 Type = FIGHTING
 Category = Special
 Cost = 16
@@ -1130,6 +1127,15 @@ Category = Special
 Cost = 20
 Rank = 9
 Description = Shenron little bonus
+#-------------------------------
+[ORANGEGIANT]
+Name = Giant Orange
+Type = GRASS
+Category = Special
+Cost = 28
+Rank = 10
+Description = Orange and Giant forms combined
+Flags = OnlyFromORANGE
 #-------------------------------
 [BEAST]
 Name = Beast
@@ -1154,13 +1160,14 @@ Category = Special
 Cost = 20
 Rank = 6
 Description = A perfected SSj3
+Flags = ReplaceSSJ3
 #-------------------------------
 [BEYONDGOD]
 Name = Beyond God
 Type = DIVINE
 Category = Special
 Cost = 1
-Rank = 7
+Rank = 1
 Description = Tap into God Ki usage
 #-------------------------------
 [SSJGOD]
@@ -1172,7 +1179,7 @@ Rank = 8
 Description = A Saiyan that uses godly Ki
 #-------------------------------
 [SSJBLUE]
-Name = SSjB
+Name = SSj Blue
 Type = DIVINE
 Category = Special
 Cost = 22
@@ -1180,12 +1187,12 @@ Rank = 9
 Description = The SSj version of a SSj God
 #-------------------------------
 [SSJBLUEEVOLVED]
-Name = SSjBE
+Name = SSj Blue Evolution
 Type = DIVINE
 Category = Special
 Cost = 24
 Rank = 1
-Description = The SSj version of a SSj God
+Description = The evolution of a SSj Blue
 #-------------------------------
 [SSJBLUEPERFECTED]
 Name = Perfected SSjB
@@ -1194,6 +1201,16 @@ Category = Special
 Cost = 28
 Rank = 10
 Description = SSj Blue with no Ki leaks
+Flags = OnlyFromSSJBLUE
+#-------------------------------
+[SSJBLUEKAIOKEN]
+Name = SSj Blue Kaio-ken
+Type = DIVINE
+Category = Special
+Cost = 30
+Rank = 10
+Description = SSj Blue and Kaioken combined.
+Flags = OnlyFromSSJBLUE
 #-------------------------------
 [SSJROSE]
 Name = SSj Rosé
@@ -1210,6 +1227,7 @@ Category = Special
 Cost = 28
 Rank = 10
 Description = The SSj2 version of a SSj Rosé
+Flags = OnlyFromSSJROSE
 #-------------------------------
 [SSJROSE3]
 Name = SSj Rosé 3
@@ -1217,6 +1235,7 @@ Type = DIVINE
 Category = Special
 Cost = 37
 Description = The SSj3 version of a SSj Rosé
+Flags = OnlyFromSSJROSE2
 #-------------------------------
 [SSJROSEFULLPOWER]
 Name = SSj Rosé Full Power
@@ -1225,6 +1244,7 @@ Category = Special
 Cost = 30
 Rank = 12
 Description = The culmination of SSj Rosé
+Flags = OnlyFromSSJROSE3
 #-------------------------------
 [UISIGN]
 Name = UI Sign
@@ -1258,14 +1278,6 @@ Cost = 22
 Rank = 9
 Description = This happens after taming a Golden Oozaru!
 #-------------------------------
-[SSJ4LIMITBREAKER]
-Name = SSj4 Limit Breaker
-Type = LIGHT
-Category = Special
-Cost = 28
-Rank = 11
-Description = A SSj4 that broke its limits
-#-------------------------------
 [SSJ4FULLPOWER]
 Name = Full Power SSj4
 Type = LIGHT
@@ -1273,6 +1285,16 @@ Category = Special
 Cost = 24
 Rank = 10
 Description = A SSj4 with more power than normal
+Flags = ReplaceSSJ4
+#-------------------------------
+[SSJ4LIMITBREAKER]
+Name = SSj4 Limit Breaker
+Type = LIGHT
+Category = Special
+Cost = 28
+Rank = 11
+Description = A SSj4 that broke its limits
+Flags = ReplaceSSJ4,ReplaceSSJ4FULLPOWER
 #-------------------------------
 [DARKDEMON]
 Name = Darkness
@@ -1297,6 +1319,7 @@ Category = Special
 Cost = 20
 Rank = 9
 Description = Enhanced version of Demon God
+Flags = ReplaceDEMONGOD
 #-------------------------------
 [DARKFACTOR]
 Name = Dark Factor
@@ -1305,6 +1328,7 @@ Category = Special
 Cost = 22
 Rank = 10
 Description = Only the Demon King can grant this form
+Flags = ReplaceDEMONGOD,ReplaceDEMONGOD2
 #-------------------------------
 [TRUEDEMONGOD]
 Name = True Demon God
@@ -1337,6 +1361,7 @@ Category = Special
 Cost = 20
 Rank = 10
 Description = Perfected Golden form that consumes less stamina
+Flags = ReplaceGOLDEN
 #-------------------------------
 [MONSTER]
 Name = Monster
