@@ -1023,9 +1023,33 @@ Name = Golden Oozaru
 Type = FIGHTING
 Category = Status
 Cost = 0
-Rank = 2
-Description = SSj version of Oozaru
+Rank = 6
+Description = SSj version of an Oozaru
 Flags = Involuntary
+#-------------------------------
+[KAIOKEN]
+Name = Kaio-ken
+Type = NORMAL
+Category = Special
+Cost = 8
+Rank = 1
+Description = Everything is heightened. Power, speed, even hearing and vision improve dramatically.
+#-------------------------------
+[SUPERKAIOKEN]
+Name = Super Kaio-ken
+Type = LIGHT
+Category = Special
+Cost = 25
+Rank = 3
+Description = SSj and Kaioken combined.
+#-------------------------------
+[SSJBLUEKAIOKEN]
+Name = SSj Blue Kaio-ken
+Type = DIVINE
+Category = Special
+Cost = 30
+Rank = 10
+Description = SSj Blue and Kaioken combined.
 #-------------------------------
 [SSJ]
 Name = SSj
