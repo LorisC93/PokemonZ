@@ -13,8 +13,10 @@ FormName = Battle Armour
 #-------------------------------
 [GOKUKID,OOZARU]
 FormName = Oozaru
-BaseStats = 78,10,81,61,27,55,54
+GrowthRate = Medium
+BaseStats = 78,15,81,61,27,55,54
 BaseExp = 178
+EVs = ATTACK,2
 Height = 15.7
 Weight = 3500.0
 Pokedex = When Goku looks at a full moon he somehow transforms into a giant ape. Maybe that has something to do with his tail.

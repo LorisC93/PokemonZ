@@ -170,7 +170,7 @@ Accuracy = 100
 TotalPP = 35
 Target = NearOther
 FunctionCode = None
-Description = A Ki Blast sustained by a maintained flow of energy.
+Description = A Ki Blast sustained by a continuous flow of energy.
 #-------------------------------
 [KIAI]
 Name = Kiai
@@ -275,8 +275,8 @@ Priority = 1
 FunctionCode = None
 Description = A Ki Blast that's weaker than a Kamehameha, but it is faster
 #-------------------------------
-[DESTRUCTODISK]
-Name = Destructo Disk
+[DESTRUCTODISC]
+Name = Destructo Disc
 Type = NORMAL
 Category = Special
 Power = 50
@@ -287,8 +287,20 @@ Flags = HighCriticalHitRate
 FunctionCode = None
 Description = A sharp disk shaped ki is fired at the opponent.
 #-------------------------------
+[DEATHSOUCER]
+Name = Death Saucer
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+Flags = HighCriticalHitRate
+FunctionCode = None
+Description = A sharp disk shaped ki is fired at the opponent.
+#-------------------------------
 [SATURDAYCRUSH]
-Name = Galick Gun
+Name = Saturday Crush
 Type = NORMAL
 Category = Special
 Power = 55
@@ -485,7 +497,7 @@ Accuracy = 100
 TotalPP = 20
 Target = AllNearOthers
 FunctionCode = None
-Description = An bigger and more powerful version of Explosive Wave
+Description = A bigger and more powerful version of Explosive Wave
 #-------------------------------
 [SUPERKAMEHAMEHA]
 Name = Super Kamehameha
@@ -508,7 +520,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = LowerTargetSpAtk1
 EffectChance = 50
-Description = Fire a powerful Ki Blast. May make the target SP.ATK.
+Description = Fire a powerful Ki Blast. May lower the target SP.ATK.
 #-------------------------------
 [NEOTRIBEAM]
 Name = Neo Tri-Beam
@@ -544,7 +556,7 @@ FunctionCode = None
 Description = An upgraded Masenko.
 #-------------------------------
 [MOUTHWAVE]
-Name = Mouth Blast
+Name = Mouth Wave
 Type = NORMAL
 Category = Special
 Power = 85
@@ -552,10 +564,10 @@ Accuracy = 95
 TotalPP = 15
 Target = NearOther
 FunctionCode = None
-Description = A destructive energy wave fired from the mouth. Tipically used by Giant characters.
+Description = A destructive energy wave fired from the mouth.
 #-------------------------------
 [SCANNINGMOUTHWAVE]
-Name = Scanning Mouth Blast
+Name = Scanning Mouth Wave
 Type = NORMAL
 Category = Special
 Power = 85
@@ -563,7 +575,7 @@ Accuracy = 95
 TotalPP = 15
 Target = AllNearOther
 FunctionCode = None
-Description = A scanning version of Mouth Blast that hits everyone in its path.
+Description = A scanning version of Mouth Wave that hits everyone in its path.
 #-------------------------------
 [BURNINGATTACK]
 Name = Burning Attack
@@ -642,7 +654,7 @@ TotalPP = 10
 Priority = 1
 Target = NearOther
 FunctionCode = None
-Description = a super powerful Galick Gun!
+Description = A super powerful Galick Gun!
 #-------------------------------
 [SPECIALBEAMCANNON]
 Name = Special Beam Cannon
@@ -844,7 +856,7 @@ Accuracy = 95
 TotalPP = 10
 Target = Other
 FunctionCode = HitTwoToFiveTimes
-Description = Several Mouth Waves firead in rapid succession.
+Description = Several Mouth Waves fired in rapid succession.
 #---------------------------------------------------------------------------------------------
 # Fixed Damage Attacks
 #---------------------------------------------------------------------------------------------
@@ -1152,7 +1164,7 @@ Rank = 1
 Description = The SSj version of a SSj God
 #-------------------------------
 [SSJBLUEPERFECTED]
-Name = SSjBE
+Name = Perfected SSjB
 Type = DIVINE
 Category = Special
 Cost = 28
@@ -1223,7 +1235,7 @@ Rank = 9
 Description = This happens after taming a Golden Oozaru!
 #-------------------------------
 [SSJ4LIMITBREAKER]
-Name = SSj4
+Name = SSj4 Limit Breaker
 Type = LIGHT
 Category = Special
 Cost = 28
@@ -1231,7 +1243,7 @@ Rank = 11
 Description = A SSj4 that broke its limits
 #-------------------------------
 [SSJ4FULLPOWER]
-Name = SSj4
+Name = Full Power SSj4
 Type = LIGHT
 Category = Special
 Cost = 24
